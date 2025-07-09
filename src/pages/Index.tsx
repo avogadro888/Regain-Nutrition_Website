@@ -65,8 +65,9 @@ const Index = () => {
 
   const carouselImages = [
     "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
-    "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
-    "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
+    "https://images.unsplash.com/photo-1546069901-5ec6a79120b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
+    "https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
+    //"https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
   ];
 
   const products = [
@@ -1553,7 +1554,7 @@ const ActivitySlide = ({
             src={image}
             alt={activity.name}
             style={{ marginTop: "-140px" }}
-            className={`absolute inset-0 w-full object-fill transition-opacity duration-500 ${
+            className={`absolute inset-0 w-full md:object-fill transition-opacity duration-500 ${
               index === currentImage ? "opacity-100" : "opacity-0"
             }`}
           />
