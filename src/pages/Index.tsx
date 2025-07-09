@@ -1553,7 +1553,7 @@ const ActivitySlide = ({
       key={index}
       src={image}
       alt={activity.name}
-      className={`absolute inset-0 w-full h-full object-cover md:-mt-[0px] md:object-fill md:h-[calc(100%+60px)] transition-opacity duration-500 ${
+      className={`absolute inset-0 w-full h-full object-cover md:-mt-[0px] md:object-fill md:h-[calc(100%+120px)] transition-opacity duration-500 ${
         index === currentImage ? "opacity-100" : "opacity-0"
       }`}
     />
