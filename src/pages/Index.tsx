@@ -1259,7 +1259,7 @@ const Index = () => {
                   alt="Regain Life Nutrition Centre Logo"
                   className="h-12 w-auto mb-1 mx-auto"
                 />
-                Website developed by CODECAT
+                <p className="text-[10px]">Website developed by CODECAT</p>
               </a>
             </p>
           </div>
