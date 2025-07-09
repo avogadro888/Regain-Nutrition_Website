@@ -549,7 +549,7 @@ const Index = () => {
               <img
                 src="/LOGO-RN.png"
                 alt="Regain Life Nutrition Centre Logo"
-                className="opacity-70 h-[520px] w-auto"
+                className="opacity-70 h-[560px] w-auto"
               />
             </div>
           </div>
