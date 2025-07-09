@@ -66,7 +66,7 @@ const Index = () => {
   const carouselImages = [
     "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
     "https://images.unsplash.com/photo-1546069901-5ec6a79120b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
-    "https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
+    "https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
     //"https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
   ];
 
@@ -1547,21 +1547,21 @@ const ActivitySlide = ({
       className="animate-on-scroll opacity-0 hover:shadow-xl transition-all duration-300 hover:scale-105 overflow-hidden cursor-pointer mx-4"
       onClick={() => onOpenModal({ type: "activity", data: activity })}
     >
-      <div className="relative h-96 overflow-hidden">
-        {activity.images.map((image: string, index: number) => (
-          <img
-            key={index}
-            src={image}
-            alt={activity.name}
-            className={`absolute md:-mt-[-140px] inset-0 w-full md:object-fill transition-opacity duration-500 ${
-              index === currentImage ? "opacity-100" : "opacity-0"
-            }`}
-          />
-        ))}
-        <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-          {activity.category}
-        </div>
-      </div>
+      <div className="relative h-screen md:h-96 overflow-hidden">
+  {activity.images.map((image: string, index: number) => (
+    <img
+      key={index}
+      src={image}
+      alt={activity.name}
+      className={`absolute inset-0 w-full h-full object-cover md:object-fill transition-opacity duration-500 ${
+        index === currentImage ? "opacity-100" : "opacity-0"
+      }`}
+    />
+  ))}
+  <div className="absolute top-4 left-4 bg-green-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+    {activity.category}
+  </div>
+</div>
       <CardContent className="p-6">
         <h3 className="text-2xl font-semibold text-gray-900 mb-3">
           {activity.name}
