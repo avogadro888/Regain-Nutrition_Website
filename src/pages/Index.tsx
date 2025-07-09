@@ -1547,13 +1547,13 @@ const ActivitySlide = ({
       className="animate-on-scroll opacity-0 hover:shadow-xl transition-all duration-300 hover:scale-105 overflow-hidden cursor-pointer mx-4"
       onClick={() => onOpenModal({ type: "activity", data: activity })}
     >
-      <div className="relative h-screen md:h-96 overflow-hidden">
+      <div className="relative h-screen sm:h-screen md:h-96 overflow-hidden">
   {activity.images.map((image: string, index: number) => (
     <img
       key={index}
       src={image}
       alt={activity.name}
-      className={`absolute inset-0 w-full h-full object-cover md:object-fill transition-opacity duration-500 ${
+      className={`absolute inset-0 w-full h-full object-cover md:-mt-[-140px] md:object-fill transition-opacity duration-500 ${
         index === currentImage ? "opacity-100" : "opacity-0"
       }`}
     />
