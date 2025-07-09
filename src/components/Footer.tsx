@@ -39,7 +39,7 @@ const Footer = () => {
 
           <div className="text-center">
             <img
-              src="public/LOGO-RN.png"
+              src="LOGO-RN.png"
               alt="Regain Life Nutrition Centre Logo"
               className="h-20 md:h-36 md:-mt-5 w-auto mb-4 mx-auto"
             />

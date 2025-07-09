@@ -639,14 +639,14 @@ const Index = () => {
             </div>
             <div className="animate-on-scroll opacity-0 flex flex-col sm:flex-row justify-center items-center gap-4">
   <video
-    src="/vid1.mp4"
+    src="videos/vid1.mp4"
     className="h-[500px] w-auto rounded-lg"
     autoPlay
     loop
     muted
   />
   <video
-    src="/vid2.mp4"
+    src="videos/vid2.mp4"
     className="h-[500px] w-auto rounded-lg"
     autoPlay
     loop
