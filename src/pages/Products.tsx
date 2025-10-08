@@ -319,11 +319,11 @@ const ProductImageCarousel = ({ images, productName, onImageClick }: { images: s
     <div className="relative">
       <div className="relative h-64 overflow-hidden rounded-lg">
         {images.map((image, index) => (
-          <img
+<img
   key={index}
   src={image}
-  alt={product.name}
-  className={`mt-[50px] w-full transition-opacity duration-500 ${
+  style={{ marginTop: '50px' }}
+  className={`w-full transition-opacity duration-500 ${
     index === currentImage ? 'opacity-100' : 'opacity-0'
   }`}
 />
@@ -362,11 +362,12 @@ const ProductCard = ({ product, onOpenModal }: { product: any; onOpenModal: (mod
         onClick={() => onOpenModal({ type: 'product', data: product })}
       >
         {product.images.map((image: string, index: number) => (
-          <img
+ <img
   key={index}
   src={image}
   alt={product.name}
-  className={`mt-[50px] w-full transition-opacity duration-500 ${
+  style={{ marginTop: '50px' }}
+  className={`w-full transition-opacity duration-500 ${
     index === currentImage ? 'opacity-100' : 'opacity-0'
   }`}
 />
