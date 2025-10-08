@@ -124,6 +124,56 @@ const Products = () => {
       images: [
         "/products/pd11.jpeg",
       ]
+    },
+    {
+      id: 12,
+      name: "Weight Management Product",
+      description: "Disclaimer: THESE PRODUCTS ARE NOT INTENDED TO DIAGNOSE, TREAT OR CURE ANY DISEASE.",
+      detailedDescription: "Category: Products",
+      features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
+      images: [
+        "/products/pd11.jpeg",
+      ]
+    },
+    {
+      id: 13,
+      name: "Weight Management Product",
+      description: "Disclaimer: THESE PRODUCTS ARE NOT INTENDED TO DIAGNOSE, TREAT OR CURE ANY DISEASE.",
+      detailedDescription: "Category: Products",
+      features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
+      images: [
+        "/products/pd11.jpeg",
+      ]
+    },
+    {
+      id: 14,
+      name: "Weight Management Product",
+      description: "Disclaimer: THESE PRODUCTS ARE NOT INTENDED TO DIAGNOSE, TREAT OR CURE ANY DISEASE.",
+      detailedDescription: "Category: Products",
+      features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
+      images: [
+        "/products/pd11.jpeg",
+      ]
+    },
+    {
+      id: 15,
+      name: "Weight Management Product",
+      description: "Disclaimer: THESE PRODUCTS ARE NOT INTENDED TO DIAGNOSE, TREAT OR CURE ANY DISEASE.",
+      detailedDescription: "Category: Products",
+      features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
+      images: [
+        "/products/pd11.jpeg",
+      ]
+    },
+    {
+      id: 16,
+      name: "Weight Management Product",
+      description: "Disclaimer: THESE PRODUCTS ARE NOT INTENDED TO DIAGNOSE, TREAT OR CURE ANY DISEASE.",
+      detailedDescription: "Category: Products",
+      features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
+      images: [
+        "/products/pd11.jpeg",
+      ]
     }
   ];
 
@@ -270,14 +320,13 @@ const ProductImageCarousel = ({ images, productName, onImageClick }: { images: s
       <div className="relative h-64 overflow-hidden rounded-lg">
         {images.map((image, index) => (
           <img
-            key={index}
-            src={image}
-            alt={`${productName} ${index + 1}`}
-            className={`-mt-8  w-full transition-opacity duration-500 cursor-pointer hover:scale-105 ${
-              index === currentImage ? 'opacity-100' : 'opacity-0'
-            }`}
-            onClick={() => onImageClick?.(image)}
-          />
+  key={index}
+  src={image}
+  alt={product.name}
+  className={`mt-[50px] w-full transition-opacity duration-500 ${
+    index === currentImage ? 'opacity-100' : 'opacity-0'
+  }`}
+/>
         ))}
       </div>
       <div className="flex justify-center mt-4 space-x-2">
@@ -314,13 +363,13 @@ const ProductCard = ({ product, onOpenModal }: { product: any; onOpenModal: (mod
       >
         {product.images.map((image: string, index: number) => (
           <img
-            key={index}
-            src={image}
-            alt={product.name}
-            className={`-mt-8 w-full transition-opacity duration-500 ${
-              index === currentImage ? 'opacity-100' : 'opacity-0'
-            }`}
-          />
+  key={index}
+  src={image}
+  alt={product.name}
+  className={`mt-[50px] w-full transition-opacity duration-500 ${
+    index === currentImage ? 'opacity-100' : 'opacity-0'
+  }`}
+/>
         ))}
       </div>
       <CardContent className="p-6">
