@@ -319,14 +319,15 @@ const ProductImageCarousel = ({ images, productName, onImageClick }: { images: s
     <div className="relative">
       <div className="relative h-64 overflow-hidden rounded-lg">
         {images.map((image, index) => (
-<img
-  key={index}
-  src={image}
-  style={{ marginTop: '50px' }}
-  className={`w-full transition-opacity duration-500 ${
-    index === currentImage ? 'opacity-100' : 'opacity-0'
-  }`}
-/>
+          <img
+            key={index}
+            src={image}
+            alt={`${productName} ${index + 1}`}
+            className={`!mt-[50px] w-full transition-opacity duration-500 cursor-pointer hover:scale-105 ${
+              index === currentImage ? 'opacity-100' : 'opacity-0'
+            }`}
+            onClick={() => onImageClick?.(image)}
+          />
         ))}
       </div>
       <div className="flex justify-center mt-4 space-x-2">
@@ -362,15 +363,14 @@ const ProductCard = ({ product, onOpenModal }: { product: any; onOpenModal: (mod
         onClick={() => onOpenModal({ type: 'product', data: product })}
       >
         {product.images.map((image: string, index: number) => (
- <img
-  key={index}
-  src={image}
-  alt={product.name}
-  style={{ marginTop: '50px' }}
-  className={`w-full transition-opacity duration-500 ${
-    index === currentImage ? 'opacity-100' : 'opacity-0'
-  }`}
-/>
+          <img
+            key={index}
+            src={image}
+            alt={product.name}
+            className={`!mt-[50px] w-full transition-opacity duration-500 ${
+              index === currentImage ? 'opacity-100' : 'opacity-0'
+            }`}
+          />
         ))}
       </div>
       <CardContent className="p-6">
