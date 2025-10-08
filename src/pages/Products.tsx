@@ -323,7 +323,7 @@ const ProductImageCarousel = ({ images, productName, onImageClick }: { images: s
             key={index}
             src={image}
             alt={`${productName} ${index + 1}`}
-            className={`!mt-[50px] w-full transition-opacity duration-500 cursor-pointer hover:scale-105 ${
+            className={`w-full h-auto object-fill absolute transition-opacity duration-500 cursor-pointer hover:scale-105 ${
               index === currentImage ? 'opacity-100' : 'opacity-0'
             }`}
             onClick={() => onImageClick?.(image)}
@@ -367,7 +367,7 @@ const ProductCard = ({ product, onOpenModal }: { product: any; onOpenModal: (mod
             key={index}
             src={image}
             alt={product.name}
-            className={`!mt-[50px] w-full transition-opacity duration-500 ${
+            className={`w-full h-auto object-fill absolute transition-opacity duration-500 ${
               index === currentImage ? 'opacity-100' : 'opacity-0'
             }`}
           />
