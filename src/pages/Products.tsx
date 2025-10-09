@@ -281,9 +281,7 @@ const Products = () => {
                     <Button
   onClick={() =>
     window.open(
-      `https://wa.me/+919747260946?text=${encodeURIComponent(
-        'Hi Regain Nutrition Centre,\n\n I\'m interested in your ' + selectedModal.data.name + ' product. Can you please provide more details and pricing?'
-      )}`,
+      `https://www.pacess.in/Home/products`,
       '_blank'
     )
   }
