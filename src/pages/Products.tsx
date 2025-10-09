@@ -279,7 +279,7 @@ const Products = () => {
                       ))}
                     </div>*/}
                     <Button
-  onClick={() =>
+  onClick={() => 
     window.open(
       `https://www.pacess.in/Home/products`,
       '_blank'
