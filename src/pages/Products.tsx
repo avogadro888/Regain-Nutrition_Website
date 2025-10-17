@@ -132,7 +132,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
       images: [
-        "/products/pd11.jpeg",
+        "/products/pd12.jpeg",
       ]
     },
     {
@@ -142,7 +142,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
       images: [
-        "/products/pd11.jpeg",
+        "/products/pd13.jpeg",
       ]
     },
     {
@@ -152,7 +152,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
       images: [
-        "/products/pd11.jpeg",
+        "/products/pd14.jpeg",
       ]
     },
     {
@@ -162,7 +162,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
       images: [
-        "/products/pd11.jpeg",
+        "/products/pd15.jpeg",
       ]
     },
     {
@@ -172,7 +172,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
       images: [
-        "/products/pd11.jpeg",
+        "/products/pd16.jpeg",
       ]
     }
   ];
