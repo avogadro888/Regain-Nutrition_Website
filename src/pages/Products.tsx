@@ -315,7 +315,7 @@ const ProductImageCarousel = ({ images, productName, onImageClick }: { images: s
 
   return (
     <div className="relative">
-      <div className="relative h-70 overflow-hidden rounded-lg">
+      <div className="relative h-72 overflow-hidden rounded-lg">
         {images.map((image, index) => (
           <img
             key={index}
@@ -357,7 +357,7 @@ const ProductCard = ({ product, onOpenModal }: { product: any; onOpenModal: (mod
   return (
     <Card className="animate-on-scroll opacity-0 hover:shadow-xl transition-all duration-300 hover:scale-105 overflow-hidden">
       <div 
-        className="relative h-70 overflow-hidden cursor-pointer"
+        className="relative h-72 overflow-hidden cursor-pointer"
         onClick={() => onOpenModal({ type: 'product', data: product })}
       >
         {product.images.map((image: string, index: number) => (
