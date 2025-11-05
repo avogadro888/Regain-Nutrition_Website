@@ -22,7 +22,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["25g Protein per serving", "Fast absorption", "Great taste", "Third-party tested"],
       images: [
-        "/products/pd1.jpeg",
+        "pages/products/pd1.jpeg",
       ]
     },
     {
@@ -32,7 +32,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["2:1:1 BCAA ratio", "Natural caffeine", "Zero sugar", "Electrolytes"],
       images: [
-        "/products/pd2.jpeg",
+        "pages/products/pd2.jpeg",
       ]
     },
     {
@@ -42,7 +42,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["5g per serving", "Micronized formula", "Unflavored", "Research proven"],
       images: [
-        "/products/pd3.jpeg",
+        "pages/products/pd3.jpeg",
       ]
     },
     {
@@ -52,7 +52,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["300mg Caffeine", "Beta-alanine formula", "Enhanced focus", "Great flavors"],
       images: [
-        "/products/pd4.jpeg",
+        "pages/products/pd4.jpeg",
       ]
     },
     {
@@ -62,7 +62,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["1000mg per capsule", "Wild-caught fish", "Molecularly distilled", "No fishy aftertaste"],
       images: [
-        "/products/pd5.jpeg",
+        "pages/products/pd5.jpeg",
       ]
     },
     {
@@ -72,7 +72,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["25 vitamins & minerals", "Daily essential nutrients", "Immune support", "Energy boost"],
       images: [
-        "/products/pd6.jpeg",
+        "pages/products/pd6.jpeg",
       ]
     },
     {
@@ -82,7 +82,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["5g pure L-Glutamine", "Muscle recovery", "Immune support", "Unflavored powder"],
       images: [
-        "/products/pd7.jpeg",
+        "pages/products/pd7.jpeg",
       ]
     },
     {
@@ -92,7 +92,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["Slow-release protein", "8-hour amino acid supply", "Rich in calcium", "Creamy texture"],
       images: [
-        "/products/pd8.jpeg",
+        "pages/products/pd8.jpeg",
       ]
     },
     {
@@ -102,7 +102,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
       images: [
-        "/products/pd9.jpeg",
+        "pages/products/pd9.jpeg",
       ]
     },
     {
@@ -112,7 +112,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
       images: [
-        "/products/pd10.jpeg",
+        "pages/products/pd10.jpeg",
       ]
     },
     {
@@ -122,7 +122,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
       images: [
-        "/products/pd11.jpeg",
+        "pages/products/pd11.jpeg",
       ]
     },
     {
@@ -132,7 +132,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
       images: [
-        "/products/pd12.jpeg",
+        "pages/products/pd12.jpeg",
       ]
     },
     {
@@ -142,7 +142,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
       images: [
-        "/products/pd13.jpeg",
+        "pages/products/pd13.jpeg",
       ]
     },
     {
@@ -152,7 +152,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
       images: [
-        "/products/pd14.jpeg",
+        "pages/products/pd14.jpeg",
       ]
     },
     {
@@ -162,7 +162,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
       images: [
-        "/products/pd15.jpeg",
+        "pages/products/pd15.jpeg",
       ]
     },
     {
@@ -172,7 +172,7 @@ const Products = () => {
       detailedDescription: "Category: Products",
       features: ["Zinc & Magnesium", "Sleep quality support", "Hormone optimization", "Recovery enhancement"],
       images: [
-        "/products/pd16.jpeg",
+        "pages/products/pd16.jpeg",
       ]
     }
   ];
