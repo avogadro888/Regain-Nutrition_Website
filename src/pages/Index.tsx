@@ -745,7 +745,7 @@ const Index = () => {
       </section>
 
       {/* Activities Section */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-on-scroll opacity-0">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
@@ -780,7 +780,7 @@ const Index = () => {
               </div>
             </div>
 
-            {/* Navigation arrows */}
+            //Navigation arrows 
             <div className="absolute top-1/2 -translate-y-1/2 -left-4">
               <button
                 onClick={prevActivitySlide}
@@ -798,7 +798,7 @@ const Index = () => {
               </button>
             </div>
 
-            {/* Slide indicators */}
+            //Slide indicators 
             <div className="flex justify-center mt-8 space-x-2">
               {activities.map((_, index) => (
                 <button
@@ -814,7 +814,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Why Us */}
       <section className="pt-15 pb-20 bg-white">
