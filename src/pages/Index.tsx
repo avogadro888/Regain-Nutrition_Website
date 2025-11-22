@@ -619,12 +619,7 @@ const Index = () => {
             <div className="animate-on-scroll opacity-0">
               <h2 className="text-5xl font-bold text-white mb-8">Who We Are</h2>
               <p className="text-xl text-white/90 mb-6 leading-relaxed">
-                Do you want a healthy life? Through a simple nutrition diet, you
-                can lose and gain weight without any side effects by eliminating
-                the fat accumulated in the body. At the same time, it helps to
-                maintain the beauty of your body. What is good food? Lifestyle?
-                We warmly welcome you to Regain Nutrition Center to learn
-                more about this.
+                Pacess Wellness India LLP founded in Sep 2022 is the 7th venture of the "Wake Economic Forum," aiming to create a significant impact in the global nutraceutical industry. With ambitious goals, we embrace challenges and possibilities, valuing teamwork and trust to achieve success. Discover ZAINUTRA from Pacess Wellness India LLP your source for high-quality nutraceutical supplements. Elevate well-being and longevity with our premium offerings.
               </p>
               {/*<p className="text-xl text-white/90 mb-6 leading-relaxed">
                 Regain Nutrition Centre is a leading provider of premium nutritional supplements, dedicated to helping you achieve your health and fitness goals. With over a decade of experience in the industry, we combine cutting-edge science with natural ingredients to deliver results you can trust.
@@ -633,7 +628,7 @@ const Index = () => {
                 Our team of nutritionists, scientists, and fitness experts work tirelessly to formulate products that meet the highest standards of quality and effectiveness. We believe that proper nutrition is the foundation of a healthy lifestyle.
               </p>*/}
               <Button
-                onClick={() => setSelectedModal({ type: "about" })}
+                onClick={() => window.open("https://www.pacess.in/", "_blank")}
                 className="bg-white text-green-800 hover:bg-gray-100 px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
               >
                 Learn More About Us
@@ -926,7 +921,7 @@ const Index = () => {
         ></div>
         <div className="absolute inset-0 bg-gradient-to-l from-blue-900/90 via-blue-800/70 to-transparent"></div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        {/* <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center text-white">
             <div className="animate-on-scroll opacity-0">
               <img
@@ -977,7 +972,7 @@ const Index = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* Our Products - Updated with sliding functionality */}
