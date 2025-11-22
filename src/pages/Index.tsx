@@ -901,7 +901,7 @@ const Index = () => {
 
       {/* How We Do */}
       <section className="relative min-h-screen flex items-center overflow-hidden">
-        <div
+        {/* <div
           className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: `url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')`,
@@ -909,7 +909,7 @@ const Index = () => {
             transform: `translateY(${scrollY * 0.3}px)`,
             willChange: "transform",
           }}
-        ></div>
+        ></div> */}
         <div
           className="absolute -mt-[3000px] sm:-mt-[2000px] inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
           style={{
