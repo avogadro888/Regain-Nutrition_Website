@@ -900,8 +900,8 @@ const Index = () => {
       </section>
 
       {/* How We Do */}
-      <section className="relative min-h-screen flex items-center overflow-hidden">
-        {/* <div
+      {/*<section className="relative min-h-screen flex items-center overflow-hidden">
+         <div
           className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: `url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')`,
@@ -972,8 +972,8 @@ const Index = () => {
               </Link>
             </div>
           </div>
-        </div> */}
-      </section>
+        </div> 
+      </section>*/}
 
       {/* Our Products - Updated with sliding functionality */}
       <section id="products" className="py-20 bg-gray-50">
