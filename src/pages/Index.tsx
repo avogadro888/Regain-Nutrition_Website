@@ -138,7 +138,7 @@ const Index = () => {
       images: ["/products/pd6.jpeg"],
     },
   ];
-
+/*
   const testimonials = [
     {
       id: 1,
@@ -203,6 +203,7 @@ const Index = () => {
       images: ["/testimonials/tst6.png"],
     },
   ];
+  */
 
   const activities = [
     {
@@ -213,7 +214,7 @@ const Index = () => {
       category: "Activity",
       testimonials: [
         {
-          name: "Regain Life Nutrition Centre, Valiyannur",
+          name: "Regain Nutrition Centre, Valiyannur",
           comment: "25 September 2024",
         },
       ],
@@ -231,7 +232,7 @@ const Index = () => {
       category: "Activity",
       testimonials: [
         {
-          name: "Regain Life Nutrition Centre, Valiyannur",
+          name: "Regain Nutrition Centre, Valiyannur",
           comment: "25 September 2024",
         },
       ],
@@ -249,7 +250,7 @@ const Index = () => {
       category: "Activity",
       testimonials: [
         {
-          name: "Regain Life Nutrition Centre, Valiyannur",
+          name: "Regain Nutrition Centre, Valiyannur",
           comment: "25 September 2024",
         },
       ],
@@ -267,7 +268,7 @@ const Index = () => {
       category: "Activity",
       testimonials: [
         {
-          name: "Regain Life Nutrition Centre, Valiyannur",
+          name: "Regain Nutrition Centre, Valiyannur",
           comment: "25 September 2024",
         },
       ],
@@ -285,7 +286,7 @@ const Index = () => {
       category: "Activity",
       testimonials: [
         {
-          name: "Regain Life Nutrition Centre, Valiyannur",
+          name: "Regain Nutrition Centre, Valiyannur",
           comment: "25 September 2024",
         },
       ],
@@ -414,7 +415,7 @@ const Index = () => {
             >
               <img
                 src="/LOGO-RN.png"
-                alt="Regain Life Nutrition Centre Logo"
+                alt="Regain Nutrition Centre Logo"
                 style={{ marginLeft: "55px" }}
                 className="h-10 w-auto transition-transform duration-100 hover:scale-910"
               />
@@ -549,7 +550,7 @@ const Index = () => {
             <div className="absolute top-1/2 -mt-[10px] -right-[200px] transform -translate-y-1/2 z-10 hidden lg:block">
               <img
                 src="/LOGO-RN.png"
-                alt="Regain Life Nutrition Centre Logo"
+                alt="Regain Nutrition Centre Logo"
                 className="opacity-70 h-[560px] w-auto"
               />
             </div>
@@ -583,7 +584,7 @@ const Index = () => {
           <div className="absolute inset-0 flex items-center justify-center text-center z-10">
             <div className="max-w-4xl px-4 animate-fade-in">
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-slide-up">
-                Regain Life Nutrition Centre
+                Regain Nutrition Centre
               </h1>
               <p className="text-xl md:text-2xl text-white/90 mb-8 animate-slide-up-delay">
                 Empowering healthy living with personalized nutrition plans for
@@ -622,11 +623,11 @@ const Index = () => {
                 can lose and gain weight without any side effects by eliminating
                 the fat accumulated in the body. At the same time, it helps to
                 maintain the beauty of your body. What is good food? Lifestyle?
-                We warmly welcome you to Regain Life Nutrition Center to learn
+                We warmly welcome you to Regain Nutrition Center to learn
                 more about this.
               </p>
               {/*<p className="text-xl text-white/90 mb-6 leading-relaxed">
-                Regain Life Nutrition Centre is a leading provider of premium nutritional supplements, dedicated to helping you achieve your health and fitness goals. With over a decade of experience in the industry, we combine cutting-edge science with natural ingredients to deliver results you can trust.
+                Regain Nutrition Centre is a leading provider of premium nutritional supplements, dedicated to helping you achieve your health and fitness goals. With over a decade of experience in the industry, we combine cutting-edge science with natural ingredients to deliver results you can trust.
               </p>
               <p className="text-lg text-white/80 mb-8 leading-relaxed">
                 Our team of nutritionists, scientists, and fitness experts work tirelessly to formulate products that meet the highest standards of quality and effectiveness. We believe that proper nutrition is the foundation of a healthy lifestyle.
@@ -820,7 +821,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-on-scroll opacity-0">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Why Choose Regain Life Nutrition Centre
+              Why Choose Regain Nutrition Centre
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
               Our dedicated team of experts is committed to your success. Meet
@@ -930,7 +931,7 @@ const Index = () => {
             <div className="animate-on-scroll opacity-0">
               <img
                 src="/AD1.jpg"
-                alt="Regain Life Nutrition Centre Logo"
+                alt="Regain Nutrition Centre Logo"
                 className="h-[600px] w-auto mb-4 mx-auto"
               />
             </div>
@@ -1076,7 +1077,7 @@ const Index = () => {
               Our Success Stories
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Real transformations from real people. See how Regain Life
+              Real transformations from real people. See how Regain
               Nutrition Centre has helped our customers achieve their goals.
             </p>
             <Link to="/success-stories">
@@ -1089,7 +1090,7 @@ const Index = () => {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
               <TestimonialCard
                 key={testimonial.id}
@@ -1097,7 +1098,7 @@ const Index = () => {
                 onOpenModal={setSelectedModal}
               />
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -1194,11 +1195,11 @@ const Index = () => {
             <div className="text-center">
               <img
                 src="/LOGO-RN.png"
-                alt="Regain Life Nutrition Centre Logo"
+                alt="Regain Nutrition Centre Logo"
                 className="h-20 md:h-36 md:-mt-5 w-auto mb-4 mx-auto"
               />
               <p className="text-gray-300 font-semibold">
-                Regain Life Nutrition Centre
+                Regain Nutrition Centre
               </p>
             </div>
             <div className="text-center md:text-left md:pl-14">
@@ -1246,7 +1247,7 @@ const Index = () => {
           </div>
           <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
             <p className="text-[14px]">
-              &copy; 2024 Regain Life Nutrition Centre. All rights reserved.{" "}
+              &copy; 2024 Regain Nutrition Centre. All rights reserved.{" "}
               <br />
               <br />
               <a
@@ -1256,7 +1257,7 @@ const Index = () => {
               >
                 <img
                   src="https://www.codecattech.com/assets/imgs/template/CCT-%20LOGO-WHITE.webp"
-                  alt="Regain Life Nutrition Centre Logo"
+                  alt="Regain Nutrition Centre Logo"
                   className="h-12 w-auto mb-1 mx-auto"
                 />
                 <p className="text-[10px]">Website developed by CODECAT</p>
@@ -1286,7 +1287,7 @@ const Index = () => {
       )}
 
       {/* Modal */}
-      {selectedModal && (
+      {/* {selectedModal && (
         <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
           <div className="bg-white rounded-lg max-w-4xl w-full max-h-[80vh] overflow-hidden">
             <div className="flex items-center justify-between p-6 border-b">
@@ -1297,7 +1298,7 @@ const Index = () => {
                 {selectedModal.type === "team" && selectedModal.data.name}
                 {selectedModal.type === "service" && selectedModal.data.title}
                 {selectedModal.type === "about" &&
-                  "About Regain Life Nutrition Centre"}
+                  "About Regain Nutrition Centre"}
                 {selectedModal.type === "process" && "Our Process"}
                 {selectedModal.type === "activity" && selectedModal.data.name}
               </h2>
@@ -1404,7 +1405,7 @@ const Index = () => {
               {selectedModal.type === "about" && (
                 <div className="space-y-6">
                   <p className="text-lg leading-relaxed">
-                    Step into a world of possibilities at REGAIN LIFE NUTRITION
+                    Step into a world of possibilities at REGAIN NUTRITION
                     CENTRE. Our catalog showcases an array of exceptional
                     products and services tailored to meet your needs. Need
                     guidance or have specific requirements? Our team is here to
@@ -1414,7 +1415,7 @@ const Index = () => {
                     Reach out to us at +919747260946 or +917012721515 for
                     tailored recommendations or any inquiries. Your journey
                     towards exceptional products and services begins with us at
-                    REGAIN LIFE NUTRITION CENTRE.
+                    REGAIN NUTRITION CENTRE.
                   </p>
                 </div>
               )}
@@ -1520,7 +1521,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 };
