@@ -909,7 +909,7 @@ const Index = () => {
             transform: `translateY(${scrollY * 0.3}px)`,
             willChange: "transform",
           }}
-        ></div> */}
+        ></div>
         <div
           className="absolute -mt-[3000px] sm:-mt-[2000px] inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
           style={{
@@ -919,7 +919,7 @@ const Index = () => {
             willChange: "transform",
           }}
         ></div>
-        <div className="absolute inset-0 bg-gradient-to-l from-blue-900/90 via-blue-800/70 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-l from-blue-900/90 via-blue-800/70 to-transparent"></div> */}
 
         {/* <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center text-white">
