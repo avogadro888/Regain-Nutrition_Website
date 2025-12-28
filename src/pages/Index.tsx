@@ -484,12 +484,12 @@ const Index = () => {
               >
                 Products
               </Link>
-              <Link
+              {/*<Link
                 to="/success-stories"
                 className="block text-gray-700 hover:text-green-600 transition-colors font-medium"
               >
                 Success
-              </Link>
+              </Link>*/}
               <Link
                 to="/activities"
                 className="block text-gray-700 hover:text-green-600 transition-colors font-medium"
@@ -507,7 +507,7 @@ const Index = () => {
                 className="block text-gray-700 hover:text-green-600 transition-colors font-medium"
               >
                 Shop
-              </a>*}
+              </a>*/}
               <a
                 href="#about"
                 className="block text-gray-700 hover:text-green-600 transition-colors font-medium"
@@ -1176,14 +1176,14 @@ const Index = () => {
                     Products
                   </Link>
                 </li>
-                <li>
+                {/*<li>
                   <Link
                     to="/success-stories"
                     className="text-gray-300 hover:text-white transition-colors"
                   >
                     Success Stories
                   </Link>
-                </li>
+                </li>*/}
               </ul>
             </div>
 
