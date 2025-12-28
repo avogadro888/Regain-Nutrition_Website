@@ -489,13 +489,13 @@ const Index = () => {
                 className="block text-gray-700 hover:text-green-600 transition-colors font-medium"
               >
                 Success
-              </Link>*/}
+              </Link>
               <Link
                 to="/activities"
                 className="block text-gray-700 hover:text-green-600 transition-colors font-medium"
               >
                 Activities
-              </Link>
+              </Link>*/}
               <Link
                 to="/contact"
                 className="block text-gray-700 hover:text-green-600 transition-colors font-medium"
@@ -1217,14 +1217,14 @@ const Index = () => {
                   </a>
                 </li>
 
-                <li>
+                {/*<li>
                   <Link
                     to="/activities"
                     className="text-gray-300 hover:text-white transition-colors"
                   >
                     Activities
                   </Link>
-                </li>
+                </li>*/}
                 <li>
                   <a
                     href="#"
