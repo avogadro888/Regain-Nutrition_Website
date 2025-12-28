@@ -394,12 +394,12 @@ const Index = () => {
               >
                 Why Us
               </Link>
-              <Link
+              {/* <Link
                 to="/success-stories"
                 className="hover:text-green-600 transition-colors font-medium"
               >
                 Success
-              </Link>
+              </Link> */}
               <a
                 href="#about"
                 className="hover:text-green-600 transition-colors font-medium"
@@ -422,12 +422,12 @@ const Index = () => {
             </div>
 
             <div className="hidden md:flex items-center space-x-8">
-              <Link
+              {/*<Link
                 to="/activities"
                 className="hover:text-green-600 transition-colors font-medium"
               >
                 Activities
-              </Link>
+              </Link> */}
               <Link
                 to="/products"
                 className="hover:text-green-600 transition-colors font-medium"
@@ -502,12 +502,12 @@ const Index = () => {
               >
                 Contact
               </Link>
-              <a
+              {/*<a
                 href="#products"
                 className="block text-gray-700 hover:text-green-600 transition-colors font-medium"
               >
                 Shop
-              </a>
+              </a>*}
               <a
                 href="#about"
                 className="block text-gray-700 hover:text-green-600 transition-colors font-medium"
